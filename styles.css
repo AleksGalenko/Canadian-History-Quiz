@@ -1,0 +1,25 @@
+.card {
+  border: 3px solid #007BFF;
+}
+
+.feedback {
+  font-weight: bold;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.correct-answer {
+  color: green;
+}
+
+.incorrect-answer {
+  color: red;
+}
