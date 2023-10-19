@@ -10,20 +10,25 @@
 </head>
 
 <body class="bg-light d-flex justify-content-center align-items-center vh-100">
+  <div class="w-50 main-window">
+    <div class="card shadow p-4">
+      <img class="w-auto" src="nerd.jpg" alt="Nerd">
+      <h2 class="text-center">Nerd Knowledge</h2>
+      <hr>
+      <p class="fw-bold text-center" id="question">Loading question...</p>
+      <div class="d-grid gap-2">
+        <button class="btn btn-outline-primary btn-answer" id="answer1"></button>
+        <button class="btn btn-outline-primary btn-answer" id="answer2"></button>
+        <button class="btn btn-outline-primary btn-answer" id="answer3"></button>
+        <button class="btn btn-outline-primary btn-answer" id="answer4"></button>
+      </div>
 
-  <div class="card shadow p-4 w-50">
-    <h2 class="text-center">Nerd Knowledge</h2>
-    <hr>
-    <p class="fw-bold text-center">What year did Canada's Confederation happen?</p>
-    <div class="d-grid gap-2">
-      <button class="btn btn-outline-primary" data-answer="1918">1918</button>
-      <button class="btn btn-outline-primary" data-answer="1867">1867</button>
-      <button class="btn btn-outline-primary" data-answer="1706">1706</button>
-      <button class="btn btn-outline-primary" data-answer="1697">1697</button>
     </div>
-    <div class="feedback mt-3 text-center"></div>
+    <div class="result">
+      <div class="feedback mt-3 text-center"></div>
+      <button class="btn btn-primary mt-3 w-100" id="try-again">Try again</button>
+    </div>
   </div>
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>

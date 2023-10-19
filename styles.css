@@ -23,3 +23,22 @@
 .incorrect-answer {
   color: red;
 }
+
+.main-window {
+  position: relative;
+}
+
+.result {
+  position: absolute;
+  width: 100%;
+}
+
+.correct-background {
+  background-color: rgba(0, 128, 0, 0.763) !important;
+  color: black !important;
+}
+
+.incorrect-background {
+  background-color: rgba(128, 0, 0, 0.763) !important;
+  color: black !important;
+}
